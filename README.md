@@ -1,4 +1,4 @@
-# AkshayArjun.github.io
+# Akshay-Arjun.github.io
 
 # Read 
 Website had many errors.
