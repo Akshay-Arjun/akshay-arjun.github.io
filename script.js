@@ -14,7 +14,7 @@ var init = function(){
    gui.add(ps, 'ptlGap').min(0).max(5).step(1).onChange(function(){
     ps.init(true);
   });
-  gui.add((ps, 'ptlSize') Size).min(1).max(5).step(1).onChange(function(){
+  gui.add(ps, 'ptlSize'.min(1).max(5).step(1).onChange(function(){
     ps.init(true);
   }); 
   gui.add(ps, 'restless'); 
