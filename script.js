@@ -4,8 +4,8 @@ var init = function(){
   var isSmall = window.innerWidth < 1000;
   
   var ps = new ParticleSlider({
-    ptlGap: isMobile || isSmall ? 3 : 0,
-    ptlSize: isMobile || isSmall ? 3 : 1,
+    ptlGap: isMobile || isSmall ? 0 : 0,
+    ptlSize: isMobile || isSmall ? 1 : 1,
     width: 1e9,
     height: 1e9
   });
