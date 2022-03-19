@@ -11,13 +11,14 @@ var init = function(){
   });
     
   var gui = new dat.GUI();
-  /* gui.add(ps, 'ptlGap').min(0).max(5).step(1).onChange(function(){
+   gui.add(ps, 'ptlGap').min(0).max(5).step(1).onChange(function(){
     ps.init(true);
   });
-  gui.add(ps, 'ptlSize').min(1).max(5).step(1).onChange(function(){
+  gui.add((ps, 'ptlSize') Size).min(1).max(5).step(1).onChange(function(){
     ps.init(true);
   }); 
-  gui.add(ps, 'restless'); */
+  gui.add(ps, 'restless'); 
+  
   gui.addColor(ps, 'color').onChange(function(value){
     ps.monochrome = true;
     ps.setColor(value);
