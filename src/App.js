@@ -12,8 +12,23 @@ import Donate from './components/Donate';
 import Projects from './components/Projects';
 import Navbar from "./components/Navbar";
 import Playlist from './components/Playlist';
+import DarkTheme, { createTheme } from 'react-dark-theme'
+
+const lightTheme = {
+  background: 'white',
+  text: 'black',
+}
+
+const darkTheme = {
+  background: "	#181818",
+  text: 'white',
+}
+const myTheme = createTheme(darkTheme, lightTheme)
 export default function App() {
+
   return (
+  <div> <DarkTheme light={lightTheme} dark={darkTheme} /> 
+
     <Router>
 
       <Navbar />
@@ -28,5 +43,8 @@ export default function App() {
 </Routes>
        
         </Router>
+        </div>
+       
   );
+ 
 }
