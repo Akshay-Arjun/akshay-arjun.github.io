@@ -29,9 +29,12 @@ const myTheme = createTheme(darkTheme, lightTheme)
 export default function App() {
 
   return (
+<>
   <div> <DarkTheme light={lightTheme} dark={darkTheme} /> 
-    <Router>         
+    <Router>    
+<div className="navbar">    
       <Navbar />
+</div>
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/community" element={<Community/>} />
@@ -42,7 +45,7 @@ export default function App() {
       </Routes>
     </Router>
   </div>
-       
+       <>
   );
  
 }
