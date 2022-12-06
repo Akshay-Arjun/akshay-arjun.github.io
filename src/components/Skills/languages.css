@@ -10,6 +10,7 @@
     align-items: center;
     margin-top: 2em; }
     .stacks__wrap .stack-list {
+z-index: 5;
       margin: 1em 2em; }
       .stacks__wrap .stack-list__name-wrap {
         display: flex;
@@ -18,8 +19,7 @@
         .stacks__wrap .stack-list__name-wrap img {
           height: 25px; }
         .stacks__wrap .stack-list__name-wrap p {
-          font-family: 'Montserrat';
-        
+          
           font-weight: 400;
           margin-left: 1em;
          }
