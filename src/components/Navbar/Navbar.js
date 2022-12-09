@@ -7,9 +7,12 @@ import ContactMailOutlinedIcon from '@mui/icons-material/ContactMailOutlined';
 import LibraryMusicOutlinedIcon from '@mui/icons-material/LibraryMusicOutlined';
 import Paper from '@mui/material/Paper';
 import { Link } from 'react-router-dom';
-
+import Box from '@mui/material/Box';
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
+import './styles.css';
 export default function Navbar() {
-
+  const ref = React.useRef(null);
   const pathname = window.location.pathname; 
   const [value, setValue] = React.useState(pathname);
   const handleChange = (event, newValue) => {
@@ -17,9 +20,14 @@ export default function Navbar() {
   };
  
   return (
-   
-     <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
-      <BottomNavigation value={value} onChange={handleChange}  showLabels={true}>
+    <div>
+      {/* The navbar container */}
+      <div className="fixed-navbar">
+    <Container maxWidth="sm">
+    <Box sx={{ pb: 7 }} ref={ref}>
+      <CssBaseline />
+     <Paper sx={{ color:'black',position: 'fixed',bottom: 0, left: 0, right: 0 }} elevation={3}>
+      <BottomNavigation value={value} onChange={handleChange} showLabels={true}>
         <BottomNavigationAction label="About" value="/" icon={<AccountCircleOutlinedIcon />} component={Link} to='/' />
         <BottomNavigationAction label="Projects" value="/projects" icon={<WorkOutlineIcon />} component={Link} to='/projects' />
         <BottomNavigationAction label="Contact" value="/contact" icon={<ContactMailOutlinedIcon />} component={Link} to='/contact' />
@@ -28,6 +36,9 @@ export default function Navbar() {
 
 
     </Paper>
-
+</Box>
+</Container>
+</div>
+</div>
 );
 }
