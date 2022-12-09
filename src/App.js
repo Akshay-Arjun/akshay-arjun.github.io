@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -12,37 +12,49 @@ import Donate from './components/Donate';
 import Projects from './components/Projects';
 import Navbar from "./components/Navbar/Navbar";
 import Playlist from './components/Playlist';
-import DarkTheme, { createTheme } from 'react-dark-theme'
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { IconButton } from '@material-ui/core';
+import Brightness4Icon from '@material-ui/icons/Brightness4';
 
-const lightTheme = {
-  background: 'white',
-  text: 'black',
-  
-}
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
-const darkTheme = {
-  background: "	#181818",
-  text: 'white',
+const lightTheme = createTheme({
+  palette: {
+    mode: 'light',
+  },
+});
 
-}
-const myTheme = createTheme(darkTheme, lightTheme)
 export default function App() {
+  const [theme, setTheme] = useState(darkTheme);
+  const [color, setColor] = useState('inherit');
+
+  const toggleTheme = () => {
+    setTheme(theme === darkTheme ? lightTheme : darkTheme);
+    setColor(color === 'inherit' ? 'secondary' : 'inherit');
+  };
 
   return (
-  <div> <DarkTheme light={lightTheme} dark={darkTheme} /> 
-    <Router>         
-      <Navbar />
-      <Routes>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Navbar />
+        <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/community" element={<Community/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/donate" element={<Donate/>} />
           <Route path="/projects" element={<Projects/>}/>
           <Route path='/playlist' element={<Playlist/>}/>
-      </Routes>
-    </Router>
-  </div>
-       
+        </Routes>
+        <IconButton onClick={toggleTheme} style={{position: 'absolute', right: '10px', top: '10px'}} aria-label="Toggle theme">
+          <Brightness4Icon color="secondary" />
+        </IconButton>
+      </Router>
+    </ThemeProvider>
   );
- 
 }
