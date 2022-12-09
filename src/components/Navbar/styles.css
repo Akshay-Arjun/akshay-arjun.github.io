@@ -1,6 +1,0 @@
-.fixed-navbar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 999; /* Set a high z-index value to ensure the navbar overlaps other elements */
-  }
