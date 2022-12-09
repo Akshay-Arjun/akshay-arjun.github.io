@@ -29,23 +29,20 @@ const myTheme = createTheme(darkTheme, lightTheme)
 export default function App() {
 
   return (
-<div> <DarkTheme light={lightTheme} dark={darkTheme} /> 
-
-<Router>
-
-  <Navbar />
-
-    <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/community" element={<Community/>} />
-      <Route path="/contact" element={<Contact/>} />
-      <Route path="/donate" element={<Donate/>} />
-      <Route path="/projects" element={<Projects/>}/>
-      <Route path='/playlist' element={<Playlist/>}/>
-</Routes>
-   
+  <div> <DarkTheme light={lightTheme} dark={darkTheme} /> 
+    <Router>         
+      <Navbar />
+      <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/community" element={<Community/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/donate" element={<Donate/>} />
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path='/playlist' element={<Playlist/>}/>
+      </Routes>
     </Router>
-    </div>
+  </div>
+       
   );
  
 }
