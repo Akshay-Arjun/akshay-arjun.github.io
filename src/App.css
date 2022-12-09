@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+.navbar {
+  z-index: 10; /* or any other value higher than the z-index of .stack-list */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
