@@ -1,5 +1,5 @@
+[![wakatime](https://wakatime.com/badge/github/Akshay-Arjun/akshay-arjun.github.io.svg)](https://wakatime.com/badge/github/Akshay-Arjun/akshay-arjun.github.io)
 
-[![Time Spent On This Repo](https://wakatime.com/badge/user/093f25f9-0e8a-4373-ac9d-8f3aee43eb8c/project/85a97eda-fcf2-4e3b-af7e-135bc0ced93d.svg)](https://wakatime.com/badge/user/093f25f9-0e8a-4373-ac9d-8f3aee43eb8c/project/85a97eda-fcf2-4e3b-af7e-135bc0ced93d)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
