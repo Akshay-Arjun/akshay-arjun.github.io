@@ -58,7 +58,7 @@ export default function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/community" element={<Community/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/doconst classes = useStyles();nate" element={<Donate/>} />
+          <Route path="/donate" element={<Donate/>} />
           <Route path="/projects" element={<Projects/>}/>
           <Route path='/playlist' element={<Playlist/>}/>
         </Routes>
