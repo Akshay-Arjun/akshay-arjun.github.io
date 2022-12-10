@@ -46,7 +46,7 @@ export default function App() {
 
   const toggleTheme = () => {
     setTheme(theme === darkTheme ? lightTheme : darkTheme);
-    setColor(color === 'inherit' ? 'secondary' : 'inherit');
+   
   };
 
   return (
