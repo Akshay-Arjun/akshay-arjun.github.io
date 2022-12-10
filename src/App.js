@@ -16,6 +16,16 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { IconButton } from '@material-ui/core';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  light: {
+    color: '#000000',
+  },
+  dark: {
+    color: '#FFFFFF',
+  },
+}));
 
 const darkTheme = createTheme({
   palette: {
@@ -30,12 +40,13 @@ const lightTheme = createTheme({
 });
 
 export default function App() {
+  const classes = useStyles();
   const [theme, setTheme] = useState(darkTheme);
-  const [color, setColor] = useState('inherit');
+ 
 
   const toggleTheme = () => {
     setTheme(theme === darkTheme ? lightTheme : darkTheme);
-    setColor(color === 'inherit' ? 'secondary' : 'inherit');
+   
   };
 
   return (
@@ -47,13 +58,13 @@ export default function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/community" element={<Community/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/donate" element={<Donate/>} />
+          <Route path="/doconst classes = useStyles();nate" element={<Donate/>} />
           <Route path="/projects" element={<Projects/>}/>
           <Route path='/playlist' element={<Playlist/>}/>
         </Routes>
         <IconButton onClick={toggleTheme} style={{position: 'absolute', right: '10px', top: '10px'}} aria-label="Toggle theme">
-          <Brightness4Icon color="secondary" />
-        </IconButton>
+      <Brightness4Icon className={classes[theme.palette.mode]} />
+    </IconButton>
       </Router>
     </ThemeProvider>
   );
