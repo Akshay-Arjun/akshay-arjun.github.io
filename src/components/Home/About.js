@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 
 const About = (props) => {
 return (
-  <div>
+  <div style={{justifyContent: "auto" }}>
   <h2 style={{ textAlign: "center" }}>
     Hi there{" "}
     <span role="img" aria-label="Waving hand">
@@ -61,7 +61,7 @@ return (
       ⚡ Unfunny fact: India doesn't have Men rights & Gender neutral laws.
     </li>
     <li>
-      📖 I read a lot of Blogs on Hacking & Hindu <del>mythology</del> history.
+      📖 I read a lot of Blogs on Hacking & Hindu <del>mythology</del>history.
     </li>
     <li>
       🐍 Favourite programming language is{" "}
