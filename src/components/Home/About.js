@@ -21,7 +21,7 @@ return (
     India
   </h3>
   <br />
-  <ul>
+  <ul style={{ textAlign: 'justify' >
     
     <li>
       
