@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Community from './components/Community';
 import Contact from './components/Contact';
 import Donate from './components/Donate';
@@ -58,7 +58,7 @@ export default function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/community" element={<Community/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/doconst classes = useStyles();nate" element={<Donate/>} />
+          <Route path="/donate" element={<Donate/>} />
           <Route path="/projects" element={<Projects/>}/>
           <Route path='/playlist' element={<Playlist/>}/>
         </Routes>

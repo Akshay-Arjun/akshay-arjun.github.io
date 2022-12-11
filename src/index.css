@@ -1,7 +1,8 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');body {
   padding-bottom: 50px;
   margin: 0;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 300;
@@ -9,6 +10,5 @@ body {
 }
 
 code {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif,
-    monospace;
+  font-family: 'Montserrat';
 }
