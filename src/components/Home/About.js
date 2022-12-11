@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 
 const About = (props) => {
 return (
-  <div style={{justifyContent: "auto" }}>
+  <div style={{justifyContent: "normal" }}>
   <h2 style={{ textAlign: "center" }}>
     Hi there{" "}
     <span role="img" aria-label="Waving hand">
