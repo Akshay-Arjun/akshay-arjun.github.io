@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 
 const About = (props) => {
 return (
+<>
   <div style={{justifyContent: "left" }}>
   <h2 style={{ textAlign: "center" }}>
     Hi there{" "}
@@ -86,6 +87,7 @@ return (
     
 
     </div>
+</>
   )
 };
 
