@@ -22,7 +22,7 @@ return (
     India
   </h3>
   <br />
-  <ul style={{ textAlign: 'justify' >
+  <ul style={{ textAlign: 'justify'}} >
     
     <li>
       
