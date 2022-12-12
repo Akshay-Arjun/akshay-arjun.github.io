@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 const About = (props) => {
 return (
 <>
-  <div style={{ textJustify: 'justify' }}>
+  <div style={{ alignContent:'space-evenly' }}>
   <h2 style={{ textAlign: "center" }}>
     Hi there{" "}
     <span role="img" aria-label="Waving hand">
@@ -22,7 +22,7 @@ return (
     India
   </h3>
   <br />
-  <ul style={{textAlign: 'left',paddingRight: '10px'}}>
+  <ul style={{textAlign: 'left',alignContent:'space-evenly',paddingRight: '20px'}}>
     
     <li>
       
