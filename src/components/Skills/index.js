@@ -12,7 +12,7 @@ import css from '../../data/css.svg';
 const Languages = () => (
 
    <div className="stacks">
-        <h2>Skills</h2>
+        <h2>Skills:</h2>
         <div className="stacks__wrap">
             <LanguagesList
                 stackName="React"

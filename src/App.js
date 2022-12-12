@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Community from './components/Community';
 import Contact from './components/Contact';
 import Donate from './components/Donate';

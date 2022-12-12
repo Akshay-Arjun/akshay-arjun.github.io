@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .stacks h2 {
     font-family: 'Montserrat';
-   text-align: center; }
+   text-align: left; }
   
   .stacks__wrap {
     display: flex;
