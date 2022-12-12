@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 const About = (props) => {
 return (
 <>
-  <div style={{ textAlign: 'justify' }}>
+  <div style={{ textJustify: 'justify' }}>
   <h2 style={{ textAlign: "center" }}>
     Hi there{" "}
     <span role="img" aria-label="Waving hand">
@@ -22,7 +22,7 @@ return (
     India
   </h3>
   <br />
-  <ul style={{textAlign: 'left', paddingRight: '20px'}}>
+  <ul style={{textAlign: 'left',paddingRight: '10px'}}>
     
     <li>
       
@@ -53,7 +53,7 @@ return (
     </li>
     <li>
       📫 How to reach me{" "}
-      <a href="https://bit.ly/AKSHAYARJUN" style={{ color: "#1DA1F2" }}>
+      <a href="/Contact" style={{ color: "#1DA1F2" }}>
         My links
       </a>
       .
@@ -62,7 +62,7 @@ return (
       ⚡ Unfunny fact: India doesn't have Men rights & Gender neutral laws.
     </li>
     <li>
-      📖 I read a lot of Blogs on Hacking & Hindu <del>mythology</del>history.
+      📖 I read a lot of Blogs on Hacking & Hindu <del>mythology</del> history.
     </li>
     <li>
       🐍 Favourite programming language is{" "}
