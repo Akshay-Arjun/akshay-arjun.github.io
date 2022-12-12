@@ -21,7 +21,7 @@ return (
     India
   </h3>
   <br />
-  <ul>
+  <ul >
     
     <li>
       
@@ -39,7 +39,7 @@ return (
       .
     </li>
     <li>🌱 I’m currently learning Web development and Ethical Hacking.</li>
-    <li>💬 Talk to me about Cybersecurity,Gender biased laws.</li>
+    <li>💬 Talk to me about Cybersecurity, Gender biased laws.</li>
     <li>
       🎮 Games I play Valorant,{" "}
       <a
