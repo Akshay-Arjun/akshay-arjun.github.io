@@ -8,6 +8,9 @@
   font-weight: 300;
   
 }
+#root{
+  min-height: 100vh;
+}
 
 code {
   font-family: 'Montserrat';

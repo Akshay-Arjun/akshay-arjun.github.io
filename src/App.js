@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 import Donate from './components/Donate';
 import Projects from './components/Projects';
 import Navbar from "./components/Navbar/Navbar";
-import Playlist from './components/Playlist';
+import Playlist from './components/Playlist/Playlist';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { IconButton } from '@material-ui/core';
