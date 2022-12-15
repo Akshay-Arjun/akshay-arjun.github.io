@@ -1,6 +1,7 @@
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub'
-
+import instagram  from '../../data/instagram.svg';
+import twitter from '../../data/twitter.svg'
 const About = (props) => {
 return (
 <>
@@ -79,8 +80,8 @@ return (
   <br />
   <h3 style={{ textAlign: "left" }}>Connect with me:</h3>
     <p align="left">
-      <a href="https://twitter.com/x4k5h4yx"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="x4k5h4yx" height="30" width="40" /></a>
-      <a href="https://instagram.com/_thearjun_"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_thearjun_" height="30" width="40" /></a>
+      <a href="https://twitter.com/x4k5h4yx"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src={twitter} alt="x4k5h4yx" height="30" width="40" /></a>
+      <a href="https://instagram.com/_thearjun_"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src={instagram} alt="_thearjun_" height="30" width="40" /></a>
       <a href="https://www.linkedin.com/in/akshayvollala/"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="_thearjun_" height="30" width="40" /></a>   
       <a href="https://github.com/Akshay-Arjun"  style={{color: '#1DA1F2'}} target="blank">{<GitHubIcon sx={{ fontSize: 35 }} />}</a>   
     </p>
