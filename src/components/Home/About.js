@@ -34,6 +34,9 @@ return (
       >
         There is no earth b website
       </a>{" "}
+,{" "}<a href="https://akshay-blog.vercel.app" style={{ color: "#1DA1F2" }}>
+        My personal blog 
+      </a>{" "}
       and{" "}
       <a href="https://akshay-arjun.vercel.app" style={{ color: "#1DA1F2" }}>
         My personal website
@@ -41,7 +44,9 @@ return (
       .
     </li>
     <li>🌱 I’m currently learning Web development and Ethical Hacking.</li>
-    <li>💬 Talk to me about Cybersecurity, Gender biased laws.</li>
+    <li>💬 Talk to me about Cybersecurity, <a href="https://voiceformenindia.com/" style={{ color: "#1DA1F2" }}>
+    Gender biased laws.
+      </a></li>
     <li>
       🎮 Games I play Valorant,{" "}
       <a
