@@ -86,6 +86,9 @@ return (
       <a href="https://github.com/Akshay-Arjun"  style={{color: '#1DA1F2'}} target="blank">{<GitHubIcon sx={{ fontSize: 35 }} />}</a>   
     </p>
     
+<h3 style={{ textAlign: "left" }}>Download Resume : </h3>
+  <a href="https://github.com/Akshay-Arjun/Akshay-Arjun/raw/main/Akshay%20%20Vollala's%20Resume.pdf"  style={{color: '#1DA1F2', height:"30" ,width:"40"}} target="blank"><img style={{ textAlign: "center" }} src="https://img.shields.io/badge/Resume-100000?style=for-the-badge&logo=readme&logoColor=white" alt="_thearjun_"  /></a>  
+
 
     </div>
 </>
