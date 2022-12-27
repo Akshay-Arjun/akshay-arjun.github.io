@@ -41,7 +41,7 @@ const lightTheme = createTheme({
 
 export default function App() {
   const classes = useStyles();
-  const [theme, setTheme] = useState(darkTheme);
+  const [theme, setTheme] = useState(lightTheme);
  
 
   const toggleTheme = () => {
