@@ -23,6 +23,10 @@ const Projects = (props) => {
         <p>The website for "There is No Earth B" is a beautifully designed platform that showcases the work done by There is No Earth B™️ . </p>
         <p>GitHub Link:  < a style={{ color: "#1DA1F2" }}href="https://github.com/deokarniharika/website">https://github.com/deokarniharika/website</a></p>
         <p>Visit Website:  < a style={{ color: "#1DA1F2" }}href="https://thereisnoearthb.org">https://thereisnoearthb.org</a></p>
+        <h3>4) Abort-India (Built with NextJS)</h3>
+        <p>Abort-India provides information on laws and guides to have a safe abortion in India . </p>
+        
+        <p>Visit Website:  < a style={{ color: "#1DA1F2" }}href="https://abort-india.vercel.app">https://abort-india.vercel.app</a></p>
       </div>
     </div>
   )
