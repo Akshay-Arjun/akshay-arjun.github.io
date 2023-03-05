@@ -29,10 +29,10 @@ return (
       
       🔭 I’m currently working on{" "}
       <a
-        href="https://thereisnoearthb.org"
+        href="https://abort-india.vercel.app"
         style={{ color: "#1DA1F2" }}
       >
-        There is no earth b website
+        A website for abortion in India
       </a>{" "}
 ,{" "}<a href="https://akshay-blog.vercel.app" style={{ color: "#1DA1F2" }}>
         My personal blog 
