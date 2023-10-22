@@ -27,7 +27,8 @@ return (
     
     <li>
       
-      🔭 I’m currently working on{" "}
+      🔭 My Top Projects
+    {" "}
       <a
         href="https://abort-india.vercel.app"
         style={{ color: "#1DA1F2" }}
@@ -43,7 +44,8 @@ return (
       </a>
       .
     </li>
-    <li>🌱 I’m currently learning Web development and Ethical Hacking.</li>
+    <li>💬 View all my projects, <a href="https://akshay-arjun.vercel.app/projects" style={{ color: "#1DA1F2" }}>   
+    <li>🌱 I’m a Web developer and Ethical Hacker.</li>
     <li>💬 Talk to me about Cybersecurity, <a href="https://voiceformenindia.com/" style={{ color: "#1DA1F2" }}>
     Gender biased laws.
       </a></li>
@@ -85,8 +87,8 @@ return (
   <br />
   <h3 style={{ textAlign: "left" }}>Connect with me:</h3>
     <p align="left">
-      <a href="https://twitter.com/x4k5h4yx"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src={twitter} alt="x4k5h4yx" height="30" width="40" /></a>
-      <a href="https://instagram.com/_thearjun_"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src={instagram} alt="_thearjun_" height="30" width="40" /></a>
+      <a href="https://twitter.com/AkshayVollala"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src={twitter} alt="x4k5h4yx" height="30" width="40" /></a>
+      <a href="https://instagram.com/akshayarjun_"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src={instagram} alt="_thearjun_" height="30" width="40" /></a>
       <a href="https://www.linkedin.com/in/akshayvollala/"  style={{color: '#1DA1F2'}} target="blank"><img style={{ textAlign: "center" }} src="https://www.svgrepo.com/show/157006/linkedin.svg" alt="_thearjun_" height="30" width="40" /></a>   
       <a href="https://github.com/Akshay-Arjun"  style={{color: '#1DA1F2'}} target="blank">{<GitHubIcon sx={{ fontSize: 35 }} />}</a>   
     </p>
