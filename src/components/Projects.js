@@ -25,8 +25,12 @@ const Projects = (props) => {
         <p>Visit Website:  < a style={{ color: "#1DA1F2" }}href="https://thereisnoearthb.org">https://thereisnoearthb.org</a></p>
         <h3>4) Abort-India (Built with NextJS)</h3>
         <p>Abort-India provides information on laws and guides to have a safe abortion in India . </p>
-        
+  
         <p>Visit Website:  < a style={{ color: "#1DA1F2" }}href="https://abort-india.vercel.app">https://abort-india.vercel.app</a></p>
+   <h3>5) Music Player & Downloader (Built with ReactJS)</h3>
+        <p>A simple music player and downloader, which works on unoffical jio saavn api : https://github.com/sumitkolhe/jiosaavn-api </p>
+  
+        <p>Visit Website:  < a style={{ color: "#1DA1F2" }}href="https://plays-music.vercel.app/">https://plays-music.vercel.app/</a></p>
       </div>
     </div>
   )
