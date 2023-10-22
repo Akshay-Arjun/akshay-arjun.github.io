@@ -45,7 +45,7 @@ return (
       .
     </li>
     <li>💬 View all my projects, <a href="https://akshay-arjun.vercel.app/projects" style={{ color: "#1DA1F2" }}>   
-    <li>🌱 I’m a Web developer and Ethical Hacker.</li>
+    <li>🌱 I’m a Web developer and Ethical Hacker.
     <li>💬 Talk to me about Cybersecurity, <a href="https://voiceformenindia.com/" style={{ color: "#1DA1F2" }}>
     Gender biased laws.
       </a></li>
