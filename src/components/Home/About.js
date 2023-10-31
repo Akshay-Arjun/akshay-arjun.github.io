@@ -46,9 +46,7 @@ return (
     </li>
     <li>💬 View all my projects, <a href="https://akshay-arjun.vercel.app/projects" style={{ color: "#1DA1F2" }}>Click to visit.</a></li>
     <li>🌱 I’m a Web developer and Ethical Hacker.</li>
-    <li>💬 Talk to me about Cybersecurity, <a href="https://voiceformenindia.com/" style={{ color: "#1DA1F2" }}>
-    Gender biased laws.
-      </a></li>
+    <li>💬 I love to talk about Cybersecurity.  </li>
     <li>
       🎮 Games I play Valorant,{" "}
       <a
@@ -66,22 +64,7 @@ return (
       </a>
       .
     </li>
-    <li>
-      ⚡ Unfunny fact: India doesn't have Men rights & Gender neutral laws.
-    </li>
-    <li>
-      📖 I read a lot of Blogs on Hacking & Hindu <del>mythology</del> history.
-    </li>
-    <li>
-      🐍 Favourite programming language is{" "}
-      <a
-        href="https://imgs.xkcd.com/comics/python.png"
-        style={{ color: "#1DA1F2" }}
-      >
-        Python
-      </a>
-      .
-    </li>
+  
   </ul>
 
   <br />
