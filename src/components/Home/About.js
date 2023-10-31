@@ -58,9 +58,9 @@ return (
       .
     </li>
     <li>
-      📫 How to reach me{" "}
+      📫 How to reach me:{" "}
       <a href="/Contact" style={{ color: "#1DA1F2" }}>
-        My links
+        Contact Form
       </a>
       .
     </li>
