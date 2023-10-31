@@ -15,24 +15,24 @@ const Languages = () => (
         <h2>Skills:</h2>
         <div className="stacks__wrap">
             <LanguagesList
-                stackName="React"
-                score="80"
+                stackName="ReactJS"
+                score="65"
                 imgLink={react} />
             <LanguagesList
                 stackName="Git"
-                score="100"
+                score="90"
                 imgLink={github} />
             <LanguagesList
                 stackName="Html"
-                score="100"
+                score="90"
                 imgLink={html} />
             <LanguagesList
                 stackName="Javascript"
-                score="100"
+                score="65"
                 imgLink={javascript} />
             <LanguagesList
                 stackName="Linux"
-                score="100"
+                score="80"
                 imgLink={linux} />
             <LanguagesList
                 stackName="Python"
@@ -48,7 +48,7 @@ const Languages = () => (
                 imgLink={java} />
             <LanguagesList
                 stackName="CSS"
-                score="100"
+                score="95"
                 imgLink={css} />
                      </div>
     </div>
